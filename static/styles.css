@@ -1,0 +1,180 @@
+/*Html elements*/
+body {
+ font-family: 'Poppins', sans-serif;
+ text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/*Headings*/
+.big-heading {
+ font-family: 'Poppins-Black';
+ font-size: 4rem;
+ line-height: 1.5;
+ font-weight: 900;
+}
+
+.section-heading {
+ font-size: 3rem;
+ line-height: 1.5;
+}
+
+/*Sections*/
+
+.coloured-section {
+ background-color: #ff4c68;
+ color:white;
+}
+
+white-section {
+  background-color: #fff;
+}
+
+/*Title Section*/
+
+#title {
+ text-align: left;
+}
+
+.container-fluid {
+ padding: 3% 15% 7%;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position:absolute;
+  right: 30%;
+}
+
+/*Navigation Bar*/
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+ padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/*Features Section*/
+
+#features {
+  padding: 7% 15%;
+  position:relative;
+  z-index: 1;
+
+}
+
+.features-h3 {
+  font-size: 1.5rem;
+}
+
+.features-icon {
+  color: #ef8172;
+  font-size: 2.5rem;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+/*Testimonial Section*/
+
+#testimonials {
+ background-color: #ef8172;
+ color: #fff;
+}
+
+.testimonial-text {
+ font-size: 3rem;
+ line-height: 1.5;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/*Press Section*/
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px
+}
+
+/*Price Section*/
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+ font-size: 3rem;
+ line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/*cta Section*/
+
+#cta {
+  padding: 4% 15% 3%;
+}
+
+/*Footer Section*/
+
+#footer {
+ padding: 7% 15%;
+}
+
+.footer-bi {
+ margin: 20px 10px;
+}
+
+/*Media Code*/
+
+@media (max-width: 990px){
+   #title {
+     text-align: center;
+   }
+   .title-image {
+     position: static;
+     transform: rotate(0);
+   }
+}
+
+

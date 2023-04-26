@@ -1,0 +1,23 @@
+{% include "header.html" %}
+}
+<header class="masthead">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="site-heading">
+            <h1>Welcome to my Cafe list web</h1>
+            <span class="subheading">A collection of Cafes in London</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="list-group">
+      {%for cafe in cafes %}
+     <a href="{{url_for('show_cafe', index=cafe.id) }}" class="list-group-item list-group-item-action">{{cafe.name}}</a>
+      {% endfor %}
+  </div>
+
+

@@ -1,0 +1,25 @@
+{% block content %}
+{% include "header.html" %}
+ <header class="masthead" style="background-image: url('{{ url_for('static', filename='img/edit-bg.jpg')}}')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>Delete Cafe?</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+<div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+          <a class="btn btn-primary" href="{{url_for('delete_cafe', index=cafe.id)}}" role="button">YES</a>
+          <a class="btn btn-primary" href="{{url_for('show_cafe', index=cafe.id)}}" role="button">NO</a>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}
